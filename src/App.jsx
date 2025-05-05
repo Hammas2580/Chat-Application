@@ -1,14 +1,12 @@
 import React from 'react'
-import { Button } from "flowbite-react";
-import Navbar from "./components/Navbar/Navbar"
-
-
+import  NavbarComponents  from './components/Navbar/Navbar'
+import FormComponents from './components/Form/form'
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      
+      <NavbarComponents/>
+      <FormComponents/>
     </div>
   )
 }
